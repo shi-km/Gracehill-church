@@ -104,12 +104,12 @@
   <div class="join-jirani-section bg-white">
     <h1 class="text-center fw-bold" style="color:#116A3A;">JOIN A JIRANI TEAM</h1>
     <div class="container px-5">
-          <form action="" class="p-5 ">
-            <input type="text" class="form-control mb-3 color-light" placeholder="Your Name" aria-label="Your Name">
-            <input type="text" class="form-control mb-3" placeholder="Your Email" aria-label="Your Email">
-            <input type="text" class="form-control mb-3" placeholder="Your Phone Number" aria-label="Your Phone Number">
-            <input type="text" class="form-control mb-3" placeholder="Where do You Leave ?" aria-label="Your Location">
-          </form>
+        <form action="" class="p-5">
+  <input type="text" class="form-control mb-3 text-white" placeholder="Your Name" aria-label="Your Name" style="background-color:#ECECEC;">
+  <input type="text" class="form-control mb-3 text-white" placeholder="Your Email" aria-label="Your Email" style="background-color:#ECECEC;">
+  <input type="text" class="form-control mb-3 text-white" placeholder="Your Phone Number" aria-label="Your Phone Number" style="background-color:#ECECEC;">
+  <input type="text" class="form-control mb-3 text-white" placeholder="Where do You Leave ?" aria-label="Your Location" style="background-color:#ECECEC;">
+</form>
 
              <div class="text-center">
       <button class="btn btn-success">Join a Jirani Team</button>

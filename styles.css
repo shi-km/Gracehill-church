@@ -59,6 +59,12 @@ width: 100%;;
 }
 
 
+/* Join a jiani form styyling */
+
+  .form-control::placeholder {
+    color: #707070 !important;
+    opacity: 1; 
+  }
 /* Accordion styling */
 
 
@@ -92,14 +98,7 @@ footer a:hover {
 
 /* End of footer section */
 
-
-
-
-
-
-
-
-
+/* specials cards styling */
 
 .custom-card-row {
       display: flex;
