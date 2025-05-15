@@ -1,3 +1,9 @@
+
+.body{
+    background-color: #F5F5F5 !important;
+    font-family: sans-serif;
+}
+
 .navbar a{
     text-decoration: none;
     color: #116A3A;
@@ -13,3 +19,18 @@
 }
 
 /* Hero section End */
+
+
+/* footer section */
+footer a{
+    text-decoration: none;
+    color:white;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+footer a:hover {
+  color: #D1BC18 !important;
+}
+
+
+/* End of footer section */
