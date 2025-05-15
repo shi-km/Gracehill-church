@@ -10,6 +10,10 @@
     text-transform: uppercase;
     font-family:sans-serif;
 }
+.navbar a:hover {
+  color: #D1BC18 !important;
+}
+
 
 /* Hero section */
 
@@ -20,6 +24,49 @@
 
 /* Hero section End */
 
+
+
+/* About hero section */
+  .About-hero {
+  display: flex;
+  height: calc(100vh - 107px); 
+  width: 100%;
+}
+
+/* Left side with the image */
+.hero-left {
+  flex: 1;
+  background: linear-gradient(to left, rgba(0, 0, 0,1), rgba(0, 0, 0, 0)), url('./assets/images/About-hero.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* Right side with the gradient */
+
+.hero-right {
+  flex: 1;
+  background: linear-gradient( rgba(1, 1, 1, 1), rgba(0, 1, 1, 1));
+   
+}
+
+
+/* Accordion styling */
+
+
+.accordion-button{
+    background-color: #116A3A !important;
+}
+.accordion-button::after{
+    color:white;
+}
+.accordion-button:not(.collapsed){ 
+  background-color: #116A3A;
+}
+.accordion-button::after{
+    color: white;
+}
+
+
+  /* About hero section End */
 
 /* footer section */
 footer a{
@@ -34,3 +81,76 @@ footer a:hover {
 
 
 /* End of footer section */
+
+
+
+
+
+
+
+
+
+
+.custom-card-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .special-card-wrapper {
+      position: relative;
+      flex: 0 0 calc(20% - 1rem); /* 5 cards per row */
+      padding-top: 2.5rem;
+    }
+
+    .special-card {
+      position: relative;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 16px;
+      padding: 2rem 1rem 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      clip-path: path("M0,0 H50% A30,30 0 0 1 50%,60 Q50%,60 50%,60 A30,30 0 0 1 50%,0 H100% V100% H0 Z");
+      text-align: center;
+    }
+
+    /* Fallback if clip-path fails (basic rounded card) */
+    @supports not (clip-path: path("")) {
+      .special-card {
+        clip-path: none;
+      }
+    }
+
+.circle-label-top {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color:#D1BC18;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+    /* Responsive tweak */
+    @media (max-width: 768px) {
+      .special-card-wrapper {
+        flex: 0 0 calc(50% - 1rem);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .special-card-wrapper {
+        flex: 0 0 100%;
+      }
+    }
