@@ -33,6 +33,16 @@
   width: 100%;
 }
 
+.connect-hero{
+background: linear-gradient(rgba(17, 106, 58, 0.71), rgba(17, 106, 58, 0.71)), url('./assets/images/connect-hero.png') no-repeat center center;
+background-size: cover;
+background-position: center;
+height: calc(100vh - 107px);
+width: 100%;;
+
+  }
+
+
 /* Left side with the image */
 .hero-left {
   flex: 1;

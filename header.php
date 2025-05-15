@@ -3,7 +3,7 @@
       <img src="./assets/images/Logo.png" alt="logo" class="img-fluid">
       <a href="index.php">Home</a>
       <a href="About.php">About Us</a>
-      <a href="">Connect</a>
+      <a href="connect.php">Connect</a>
       <a href="">Resources</a>
       <a href="">Ministries</a>
       <a href="">Give</a>
