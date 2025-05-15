@@ -30,7 +30,7 @@
 
   <!-- Welcome note section -->
   
-    <div class="container-fluid my-5">
+    <div class="container-fluid mt-5">
       <div class="card w-100" style="background-color:#116A3A;">
         <div class="row g-0">
           <div class="col-md-4 position-relative">
