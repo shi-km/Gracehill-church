@@ -30,7 +30,7 @@
   <!-- End of Hero section -->
 
 
- <h1 class=" text-center fw-bold" style="color:#116A3A;">MINISTRY MODEL</h1>
+ <h1 class=" text-center fw-bold fs-3" style="color:#116A3A;">MINISTRY MODEL</h1>
 
 <div class="container my-5">
   <div class="custom-card-row">
@@ -84,7 +84,7 @@
 
 
 <!-- Core values section -->
- <h1 class=" text-center fw-bold mt-5" style="color:#116A3A;">CORE VALUES</h1>
+ <h1 class=" text-center fw-bold mt-5 fs-3" style="color:#116A3A;">CORE VALUES</h1>
 <div class="container my-5">
   <div class="pb-3">
     <h5 style="color:#116A3A;" class="fw-bold">1. Value</h5>
@@ -124,7 +124,7 @@
 <!-- Statement of faith section  -->
 
 <div class="container" data-aos="fade-up">
-  <h1 class="text-center fw-bold my-5" style="color:#116A3A;">STATEMENT OF FAITH</h1>
+ <h1 class="text-center fw-bold my-5 fs-3" style="color:#116A3A;">STATEMENTS OF FAITH</h1>
 
   <div class="accordion" id="accordionExample">
     
