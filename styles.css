@@ -40,7 +40,44 @@ background-position: center;
 height: calc(100vh - 107px);
 width: 100%;;
 
-  }
+}
+
+/* Resources hero section */
+.resources-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url('./assets/images/resources-hero.png') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 107px);
+  width: 100%;
+}
+
+.value-section{
+  padding-inline: 12% !important;
+}
+
+/* Resources hero section End */
+
+/* Ministries hero section */
+
+.ministries-hero{
+background: linear-gradient(rgba(17, 106, 58, 0.71), rgba(17, 106, 58, 0.71)), url('./assets/images/ministries-hero.png') no-repeat center center;
+background-size: cover;
+background-position: center;
+height: calc(100vh - 107px);
+width: 100%;;
+
+}
+
+/* Give hero section */
+.give-hero{
+background:url('./assets/images/resources-hero.png') no-repeat center center;
+background-size: cover;
+background-position: center;
+height: calc(100vh - 107px);
+width: 100%;;
+
+}
+/* Give hero section End */
 
 
 /* Left side with the image */

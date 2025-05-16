@@ -3,13 +3,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gracehill Church</title>
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!-- css file link -->
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -151,29 +144,31 @@
      <!-- connect Section -->
 <h1 class="text-center fw-bold" style="color:#116A3A;">Connect</h1>
 <div class="container">
-  <form action="">
-    <div class="row m-5">
-      <div class="col-md-4">
-        <input type="text" class="form-control" placeholder="Your Name" aria-label="Your Name">
-      </div>
-      <div class="col-md-4">
-        <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email">
-      </div>
-      <div class="col-md-4 mb-5">
-        <input type="text" class="form-control" placeholder="Your Phone Number" aria-label="Your Phone Number">
-      </div>
-
-
-      <div class="col-md-12">
-        <textarea class="form-control" placeholder="Your Message" aria-label="Your Message" style="height: 50vh;"></textarea>
-      </div>
+<form action="">
+  <div class="row m-5">
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="Your Name" aria-label="Your Name" required>
     </div>
-  </form>
+    <div class="col-md-4">
+      <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email" required>
+    </div>
+    <div class="col-md-4 mb-5">
+      <input type="tel" class="form-control" placeholder="Your Phone Number" aria-label="Your Phone Number" required>
+    </div>
 
-  <div class="text-center mt-4">
+    <div class="col-md-12">
+      <textarea class="form-control" placeholder="Your Message" aria-label="Your Message" style="height: 50vh;" required></textarea>
+    </div>
+  </div>
+
+    <div class="text-center mt-4">
     <button class="btn btn-outline-success">SEND MESSAGE</button>
   </div>
 </div>
+
+</form>
+
+
 
 
  <!-- End of connect Section -->

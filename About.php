@@ -24,6 +24,7 @@
     <div class="hero-right"></div>
   </div>
   <div class="position-absolute bottom-0 start-50 translate-middle text-center text-white ">
+    <img src="./assets/images/1.png" alt="polygon" class="img-fluid pb-5" style="width: 50px;">
     <h1 class="fw-bold">Welcome Message from the Senior Pastor</h1>
   </div>
 </div>

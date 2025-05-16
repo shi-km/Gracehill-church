@@ -37,7 +37,7 @@
   <!-- Plug into a Jirani section -->
   <div class="jirani-team bg-white">
     <div class="container my-5">
-      <h1 class="text-center fw-bold" style="color:#116A3A;">PLUG-IN TO GRACEHILL!</h1>
+      <h1 class="text-center fw-bold fs-3" style="color:#116A3A;">PLUG-IN TO GRACEHILL!</h1>
       <p class="p-5">
         At GRACEHILL MISSION CHURCH, we believe that church is more than just attend
         relationships and creating a family of believers that are having an impact in each other’s 
@@ -56,7 +56,7 @@
   <!-- End of Plug into a Jirani section -->
 
   <div class="jirani-are-section bg-light">
-    <h1 class="text-center fw-bold py-5" style="color:#116A3A;">JIRANI TEAMS ARE</h1>
+    <h1 class="text-center fw-bold py-5 fs-3" style="color:#116A3A;">JIRANI TEAMS ARE</h1>
     <div class="container mb-5">
       <div class="card mb-5">
         <div class="card-title text-white text-center fw-bold p-3 fs-4" style="background-color:#D1BC18;">
@@ -102,13 +102,13 @@
   <!-- join a jirani section -->
 
   <div class="join-jirani-section bg-white">
-    <h1 class="text-center fw-bold" style="color:#116A3A;">JOIN A JIRANI TEAM</h1>
+    <h1 class="text-center fw-bold fs-3" style="color:#116A3A;">JOIN A JIRANI TEAM</h1>
     <div class="container px-5">
         <form action="" class="p-5">
-  <input type="text" class="form-control mb-3 text-white" placeholder="Your Name" aria-label="Your Name" style="background-color:#ECECEC;">
-  <input type="text" class="form-control mb-3 text-white" placeholder="Your Email" aria-label="Your Email" style="background-color:#ECECEC;">
-  <input type="text" class="form-control mb-3 text-white" placeholder="Your Phone Number" aria-label="Your Phone Number" style="background-color:#ECECEC;">
-  <input type="text" class="form-control mb-3 text-white" placeholder="Where do You Leave ?" aria-label="Your Location" style="background-color:#ECECEC;">
+  <input type="text" class="form-control mb-4" placeholder="Your Name" aria-label="Your Name" style="background-color:#ECECEC;">
+  <input type="text" class="form-control mb-4 " placeholder="Your Email" aria-label="Your Email" style="background-color:#ECECEC;">
+  <input type="text" class="form-control mb-4 " placeholder="Your Phone Number" aria-label="Your Phone Number" style="background-color:#ECECEC;">
+  <input type="text" class="form-control mb-4 " placeholder="Where do You Leave ?" aria-label="Your Location" style="background-color:#ECECEC;">
 </form>
 
              <div class="text-center">
