@@ -14,10 +14,10 @@
   <div class="container-fluid bg-light hero-section">
     <div class="row p-3 position-relative">
       <div class="col-md-4 d-flex align-items-center">
-        <h1 class="hero-title">All for The King and His Kingdom</h1>
+        <h1 class="hero-title" data-aos="fade-right" data-aos-duration="1000">All for The King and His Kingdom</h1>
       </div>
       <div class="col-md-8">
-        <img src="./assets/images/hero.png" alt="hero-image" class="img-fluid">
+        <img src="./assets/images/hero.png" alt="hero-image" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@
 
   <!-- Welcome note section -->
   
-    <div class="container-fluid mt-5">
+    <div class="container-fluid mt-5" data-aos="fade-up" data-aos-duration="1000">
       <div class="card w-100" style="background-color:#116A3A;">
         <div class="row g-0">
           <div class="col-md-4 position-relative">
@@ -60,7 +60,7 @@
 
   <!-- Worship section -->
 
- <div class="container-fluid mb-5" style="background-image:url('./assets/images/worship.png'); background-size: cover; background-position: center;">
+ <div class="container-fluid mb-5" style="background-image:url('./assets/images/worship.png'); background-size: cover; background-position: center;" data-aos="zoom-in-up" data-aos-duration="1000">
   <div class="p-5">
     <h1 class="text-white text-center display-4 fw-bold">WORSHIP WITH US</h1>
     <p class="text-white text-center">
@@ -78,7 +78,7 @@
   <!-- Resources section -->
 <h1 class="text-center fw-bold" style="color:#116A3A;">Resources</h1>
 
-<div class="container my-5">
+<div class="container my-5 " data-aos="fade-up"  data-aos-duration="1000">
   <div class="row">
     <!-- First card -->
     <div class="col-md-4">
@@ -143,7 +143,9 @@
 <div class="connect-section bg-light">
      <!-- connect Section -->
 <h1 class="text-center fw-bold" style="color:#116A3A;">Connect</h1>
-<div class="container">
+<div class="container" data-aos="fade-right" data-aos-duration="1000">
+  <!-- Your content here -->
+</div>
 <form action="">
   <div class="row m-5">
     <div class="col-md-4">

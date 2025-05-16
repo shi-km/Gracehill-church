@@ -11,6 +11,9 @@
 
     <!-- css file link -->
   <link rel="stylesheet" href="styles.css">
+
+      <!-- Animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
    <nav class="navbar bg-white">

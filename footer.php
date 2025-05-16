@@ -1,4 +1,13 @@
- <div class="container-fluid mt-5 pb-5 text-center text-white" style="background-color: #116A3A;"><br>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+     <div class="container-fluid mt-5 pb-5 text-center text-white" style="background-color: #116A3A;"><br>
   <img src="./assets/images/footer-logo.png" alt="footer-logo" class="img-fluid d-block mx-auto p-3" style="max-width: 350px;"><br>
 
   <footer class="">
@@ -35,3 +44,12 @@
   <!-- Bootstrap JS Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+  <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+  </body>
+  </html>
