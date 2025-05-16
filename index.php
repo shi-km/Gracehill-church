@@ -81,7 +81,7 @@
 <div class="container my-5 " data-aos="fade-up"  data-aos-duration="1000">
   <div class="row">
     <!-- First card -->
-    <div class="col-md-4">
+    <div class="col-md-4 mb-3">
       <div class="card w-100">
         <img src="./assets/images/resources.png" class="card-img-top" alt="card-image">
         <div class="card-body">
@@ -98,7 +98,7 @@
     </div>
 
     <!-- Second card -->
-    <div class="col-md-4">
+    <div class="col-md-4 mb-3">
       <div class="card w-100">
         <img src="./assets/images/resources.png" class="card-img-top" alt="card-image">
         <div class="card-body">
@@ -143,15 +143,13 @@
 <div class="connect-section bg-light">
      <!-- connect Section -->
 <h1 class="text-center fw-bold" style="color:#116A3A;">Connect</h1>
-<div class="container" data-aos="fade-right" data-aos-duration="1000">
-  <!-- Your content here -->
-</div>
-<form action="">
+<div class="container" data-aos="fade-left" data-aos-duration="1000">
+ <form action=""  >
   <div class="row m-5">
-    <div class="col-md-4">
+    <div class="col-md-4 mb-3">
       <input type="text" class="form-control" placeholder="Your Name" aria-label="Your Name" required>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-3">
       <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email" required>
     </div>
     <div class="col-md-4 mb-5">
@@ -170,6 +168,8 @@
 
 </form>
 
+
+</div>
 
 
 

@@ -16,17 +16,33 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-   <nav class="navbar bg-white">
-    <div class="container-fluid">
-      <img src="./assets/images/Logo.png" alt="logo" class="img-fluid">
-      <a href="index.php">Home</a>
-      <a href="About.php">About Us</a>
-      <a href="connect.php">Connect</a>
-      <a href="resources.php">Resources</a>
-      <a href="Ministries.php">Ministries</a>
-      <a href="give.php">Give</a>
-      <a href="">Contact Us</a>
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.php">
+      <img src="./assets/images/Logo.png" alt="Logo" class="img-fluid" style="max-height: 50px;">
+    </a>
+
+    <!-- Toggler button for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.php">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
+        <li class="nav-item"><a class="nav-link" href="resources.php">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="Ministries.php">Ministries</a></li>
+        <li class="nav-item"><a class="nav-link" href="give.php">Give</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
 </body>
 </html>
