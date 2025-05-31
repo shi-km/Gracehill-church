@@ -17,16 +17,15 @@
   <div class="container-fluid pb-5">
     <div class="resources-hero position-relative">
        <div class="position-absolute top-50 start-50 translate-middle text-center">
-         <h1 class="text-white pb-5">Resources for your soul</h1>
-        <input type="text" class="form-control w-100 bg-success text-white" placeholder="Search for resources">
-
+         <h1 class="text-white pb-5" data-aos="fade-down" data-aos-duration="1000">Resources for your soul</h1>
+       <input type="text" class="form-control bg-transparent text-success search-input" placeholder="Search for resources"  data-aos="fade-down"  data-aos-duration="1000">
        </div>
     </div>
   </div>
 
   <!-- Resources section -->
 
-<div class="container my-5">
+<div class="container my-5" data-aos="fade-up" data-aos-duration="1000">
   <div class="row gy-4">
     <!-- First card -->
     <div class="col-md-4">

@@ -12,8 +12,8 @@
      <div class="container-fluid">
         <div class="give-hero position-relative">
             <div class="give-title position-absolute top-50 start-50 translate-middle text-white">
-                <h1 class="text-center pb-5 fw-bold">GIVING</h1>
-                <p class="lh-lg">Our generous giving – through tithes, offerings,and others – makes 
+                <h1 class="text-center pb-5 fw-bold" data-aos="fade-down" data-aos-duration="1000">GIVING</h1>
+                <p class="lh-lg" data-aos="fade-down" data-aos-duration="1000">Our generous giving – through tithes, offerings,and others – makes 
                     it possible for us to meet the needs of our growing church, 
                     as well as do much of what God has called us to do in impacting
                      our community with the love and the Gospel of Jesus Christ!</p>
@@ -23,7 +23,7 @@
     <!-- End of Hero section -->
    <h1 class="text-center display-4 fw-bold fs-3 my-5" style="color:#116A3A;">WAYS TO GIVE</h1>
 
-<div class="container px-5">
+<div class="container px-5" data-aos="fade-up" data-aos-duration="1000">
   <div class="row g-4">
     <!-- Card 1 -->
     <div class="col-md-6 mb-5">

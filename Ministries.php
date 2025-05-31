@@ -11,7 +11,7 @@
     <div class="container-fluid">
         <div class="ministries-hero position-relative">
             <div class="ministries-title position-absolute top-50 start-50 translate-middle">
-                <h1 class="text-white">SERVING IN THE <strong style="color:#D1BC18;"> FAMILY,</strong> IS SERVING THE <strong style="color:#D1BC18;">KINGDOM !</strong>,</h1>
+                <h1 class="text-white" data-aos="fade-down" data-aos-duration="1000">SERVING IN THE <strong style="color:#D1BC18;"> FAMILY, </strong> IS SERVING THE <strong style="color:#D1BC18;">KINGDOM !</strong>,</h1>
             </div>
         </div>
     </div>
@@ -25,8 +25,8 @@
     </div>
 
 <div class="new-section bg-light">
-    <div class="container my-5 value-section">
-    <div class="card mb-5">
+    <div class="container my-5 value-section pt-5">
+    <div class="card mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="card-title text-white text-center fw-bold p-3 fs-4" style="background-color:#D1BC18;">
           CHILDREN & YOUTH MINISTRY
         </div>
@@ -39,7 +39,7 @@
         </div>
       </div>
 
-        <div class="card mb-5">
+        <div class="card mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="card-title text-white text-center fw-bold p-3 fs-4" style="background-color:#D1BC18;">
           ADULT & COUPLES MINISTRY
         </div>
@@ -55,11 +55,11 @@
         </div>
       </div>
 
-        <div class="card mb-5">
+        <div class="card mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="card-title text-white text-center fw-bold p-3 fs-4" style="background-color:#D1BC18;">
           ADULTS & COUPLES
         </div>
-        <div class="card-body text-black text-center">
+        <div class="card-body text-black text-center" >
           <p class="p-3">
             The YOOTH—Youth on The Hill—ministry is diverse and vibrant.
              Our goal is to build our young people in the Word so that 
@@ -71,22 +71,22 @@
         </div>
       </div>
 
-        <div class="card mb-5">
+        <div class="card mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="card-title text-white text-center fw-bold p-3 fs-4" style="background-color:#D1BC18;">
           PRAYER, WORSHIP AND MEDIA MINISTRIES
         </div>
-        <div class="card-body text-black text-center">
+        <div class="card-body text-black text-center" >
           <p class="p-3">
           God has called us to persevering prayer, and we choose to
            be obedient to this call as a church—to make prayer both a personal and corporate discipline.  
         </div>
       </div>
 
-        <div class="card mb-5">
+        <div class="card mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="card-title text-white text-center fw-bold p-3 fs-4" style="background-color:#D1BC18;">
           MISSIONS AND OUTREACH MINISTRY
         </div>
-        <div class="card-body text-black text-center">
+        <div class="card-body text-black text-center" >
           <p class="p-3">
             GRACEHILL MISSION CHURCH is a Mission-oriented community.
              We prioritize the Great Commission by committing our 
@@ -95,10 +95,10 @@
         </div>
       </div>
 
-        <div class="card mb-5">
+        <div class="card mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="card-title text-white text-center fw-bold p-3 fs-4" style="background-color:#D1BC18;">
          PASTORAL CARE & ENRICHMENT        </div>
-        <div class="card-body text-black text-center">
+        <div class="card-body text-black text-center" >
           <p class="p-3">
            The pastoral team, the elders, deacons, Jirani Team (small group) leaders, 
            and all ministry leaders of Gracehill are dedicated to the care of our 

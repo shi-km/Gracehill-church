@@ -33,7 +33,7 @@
 
  <h1 class=" text-center fw-bold fs-3" style="color:#116A3A;">MINISTRY MODEL</h1>
 
-<div class="container my-5">
+<div class="container my-5"  data-aos="fade-up" data-aos-duration="1000">
   <div class="custom-card-row">
     <div class="special-card-wrapper">
       <div class="circle-label-top">G</div>
@@ -124,7 +124,7 @@
 
 <!-- Statement of faith section  -->
 
-<div class="container" data-aos="fade-up">
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
  <h1 class="text-center fw-bold my-5 fs-3" style="color:#116A3A;">STATEMENTS OF FAITH</h1>
 
   <div class="accordion" id="accordionExample">
@@ -213,7 +213,7 @@
 </div>
 
   <!-- End of statement of faith section -->
-
+  
       <?php include 'footer.php';?>      
 </body>
 </html>

@@ -11,16 +11,22 @@
   <!-- End of Header section -->
 
   <!-- Hero section -->
-  <div class="container-fluid bg-light hero-section">
-    <div class="row p-3 position-relative">
-      <div class="col-md-4 d-flex align-items-center">
-        <h1 class="hero-title" data-aos="fade-right" data-aos-duration="1000">All for The King and His Kingdom</h1>
-      </div>
-      <div class="col-md-8">
-        <img src="./assets/images/hero.png" alt="hero-image" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
-      </div>
+<div class="container-fluid bg-light hero-section">
+  <div class="row p-3 position-relative">
+    <div class="col-md-4 d-flex flex-column align-items-start justify-content-center ps-5">
+      <h1 class="hero-title display-1" data-aos="fade-right" data-aos-duration="1000">
+        All for The<br> King and His<br> Kingdom
+      </h1>
+      <a href="#your-target-section" class="btn btn-warning mt-4" style="background-color: #D1BC18; color: white;">
+        Watch Series
+      </a>
+    </div>
+    <div class="col-md-8">
+      <img src="./assets/images/hero.png" alt="hero-image" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
     </div>
   </div>
+</div>
+
   <!-- End of Hero section -->
 
   <!-- Welcome note section -->
@@ -134,7 +140,7 @@
 
   <!-- Centered "See More" button -->
   <div class="text-center mt-4">
-    <button class="btn btn-outline-success">See More</button>
+  <a href="resources.php" class="btn btn-outline-success">See More</a>
   </div>
 </div>
 

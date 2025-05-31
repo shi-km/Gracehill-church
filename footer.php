@@ -25,12 +25,12 @@
     <!-- Copyright -->
     <div class="copyright">
       <p>Copyright © 2025 | GRACEHILL MISSION CHURCH </p>
-      <p>Developed by George Kamau</p>
+      <p><small>Developed by George Kamau</small></p>
     </div>
 
     <!-- Optional Social Links -->
-    <!--
-    <div>
+    
+    <!-- <div>
       <a href="#" class="mx-2 text-white">Facebook</a>
       <a href="#" class="mx-2 text-white">Instagram</a>
       <a href="#" class="mx-2 text-white">Twitter</a>

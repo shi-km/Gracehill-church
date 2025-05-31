@@ -21,14 +21,14 @@
   <div class="container-fluid">
     <div class="connect-hero d-flex position-relative">
       <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-        <h1 class="text-white mb-5 fw-bold">JIRANI TEAMS</h1>
-        <p class="text-white">
+        <h1 class="text-white mb-5 fw-bold" data-aos="fade-down" data-aos-duration="1000">JIRANI TEAMS</h1>
+        <p class="text-white" data-aos="fade-down" data-aos-duration="1000">
           “They devoted themselves to the apostles’ teaching and to the fellowship, to the breaking of bread and to prayer…
           they continued to meet together in the temple courts. They broke bread in their homes and ate together with glad and
           sincere hearts, praising God and enjoying the favour of all the people. And the Lord added to their number daily those 
           who were being saved.” 
           <br><br>
-          <strong class="fs-3">Acts 2:42-47</strong>
+          <strong class="fs-3" >Acts 2:42-47</strong>
         </p>
       </div>
     </div>
@@ -36,7 +36,7 @@
 
   <!-- Plug into a Jirani section -->
   <div class="jirani-team bg-white">
-    <div class="container my-5">
+    <div class="container my-5" data-aos="fade-up" data-aos-duration="1000">
       <h1 class="text-center fw-bold fs-3" style="color:#116A3A;">PLUG-IN TO GRACEHILL!</h1>
       <p class="p-5">
         At GRACEHILL MISSION CHURCH, we believe that church is more than just attend
@@ -101,7 +101,7 @@
 
   <!-- join a jirani section -->
 
-  <div class="join-jirani-section bg-white">
+  <div class="join-jirani-section bg-white" data-aos="fade-up" data-aos-duration="1000">
     <h1 class="text-center fw-bold fs-3" style="color:#116A3A;">JOIN A JIRANI TEAM</h1>
     <div class="container px-5">
         <form action="" class="p-5">

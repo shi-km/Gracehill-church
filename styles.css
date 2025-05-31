@@ -1,20 +1,37 @@
 
-.body{
-    background-color: #F5F5F5 !important;
-    font-family: sans-serif;
-      overflow-x: hidden;
+@import url('assets/css/fonts.css');
+
+body {
+  font-family: 'Roboto' !important;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  overflow-x: hidden !important;
 }
 
-
-
-.navbar a{
-    text-decoration: none;
-    color: #116A3A;
-    text-transform: uppercase;
-    font-family:sans-serif;
+h1, h2, h3, h4, h5 {
+  font-family:'Gasoek One'!important;
+  font-weight: 900;
+  font-style: normal;
 }
+
+.navbar a {
+  text-decoration: none;
+  color: #116A3A;
+  text-transform: uppercase;
+  font-family:'Roboto'!important;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar a:hover {
   color: #D1BC18 !important;
+}
+
+.navbar a.active {
+  color: #D1BC18 !important;
+  border-bottom: 2px solid #D1BC18;
 }
 
 
@@ -53,6 +70,32 @@ width: 100%;;
   height: calc(100vh - 107px);
   width: 100%;
 }
+
+/* resources search button */
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  background-color: transparent;
+  color: white !important;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+/* Placeholder styling */
+.search-input::placeholder,
+.search-input::-webkit-input-placeholder,
+.search-input:-moz-placeholder,
+.search-input::-moz-placeholder,
+.search-input:-ms-input-placeholder {
+  color: white !important;
+  opacity: 0.7 !important; 
+}
+
+/* resources search button End */
 
 .value-section{
   padding-inline: 12% !important;
@@ -119,6 +162,10 @@ width: 100%;;
 }
 .accordion-button::after{
     color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
 }
 
 
@@ -204,3 +251,9 @@ footer a:hover {
         flex: 0 0 100%;
       }
     }
+
+
+
+
+
+    
