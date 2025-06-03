@@ -18,7 +18,11 @@
 
   <?php include 'header.php' ?>
 
-  <div class="container-fluid">
+  <div class="container-fluid" style="background: linear-gradient(rgba(17, 106, 58, 0.71), rgba(17, 106, 58, 0.71)), url('./assets/images/connect-hero.png') no-repeat center center;
+background-size: cover;
+background-position: center;
+height: calc(100vh - 107px);
+width: 100%;">
     <div class="connect-hero d-flex position-relative">
       <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
         <h1 class="text-white mb-5 fw-bold" data-aos="fade-down" data-aos-duration="1000">JIRANI TEAMS</h1>
@@ -99,24 +103,30 @@
     </div>
   </div>
 
-  <!-- join a jirani section -->
+
+    <!-- join a jirani section -->
 
   <div class="join-jirani-section bg-white" data-aos="fade-up" data-aos-duration="1000">
     <h1 class="text-center fw-bold fs-3" style="color:#116A3A;">JOIN A JIRANI TEAM</h1>
     <div class="container px-5">
-        <form action="" class="p-5">
-  <input type="text" class="form-control mb-4" placeholder="Your Name" aria-label="Your Name" style="background-color:#ECECEC;">
-  <input type="text" class="form-control mb-4 " placeholder="Your Email" aria-label="Your Email" style="background-color:#ECECEC;">
-  <input type="text" class="form-control mb-4 " placeholder="Your Phone Number" aria-label="Your Phone Number" style="background-color:#ECECEC;">
-  <input type="text" class="form-control mb-4 " placeholder="Where do You Leave ?" aria-label="Your Location" style="background-color:#ECECEC;">
-</form>
+<form action="" class="p-5">
+  <input type="text" class="form-control mb-4" placeholder="Your Name" aria-label="Your Name" required style="background-color:#ECECEC; height: 50px;">
+  
+  <input type="email" class="form-control mb-4" placeholder="Your Email" aria-label="Your Email" required style="background-color:#ECECEC; height: 50px;">
+  
+  <input type="tel" class="form-control mb-4" placeholder="Your Phone Number" aria-label="Your Phone Number" required style="background-color:#ECECEC; height: 50px;">
+  
+  <input type="text" class="form-control mb-4" placeholder="Where do You Live?" aria-label="Your Location" required style="background-color:#ECECEC; height: 50px;">
 
-             <div class="text-center">
+  <!-- Form button -->
+     <div class="text-center">
       <button class="btn btn-success">Join a Jirani Team</button>
     </div>
-    </div>
-  </div>
+</form>
 
+ </div>
+</div>
+ <!-- End of jirani section -->
   <?php include 'footer.php' ?>
 
 </body>

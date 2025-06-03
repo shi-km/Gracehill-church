@@ -34,7 +34,7 @@
  <h1 class=" text-center fw-bold fs-3" style="color:#116A3A;">MINISTRY MODEL</h1>
 
 <div class="container my-5"  data-aos="fade-up" data-aos-duration="1000">
-  <div class="custom-card-row">
+  <div class="custom-card-row p-4">
     <div class="special-card-wrapper">
       <div class="circle-label-top">G</div>
       <div class="special-card">
@@ -87,15 +87,15 @@
 <!-- Core values section -->
  <h1 class=" text-center fw-bold mt-5 fs-3" style="color:#116A3A;">CORE VALUES</h1>
 <div class="container my-5">
-  <div class="pb-3">
+  <div class="p-4">
     <h5 style="color:#116A3A;" class="fw-bold">1. Value</h5>
-     <p>Welcome to GRACEHILL MISSION CHURCH, where God writes beautiful stories.  
+     <p class="">Welcome to GRACEHILL MISSION CHURCH, where God writes beautiful stories.  
       We are a Jesus-loving family that is passionate about his word and his kingdom.  
       We believe that God is shaping and writing our stories for his glory and his honor.  
       We believe that corporately and individually.</p>
   </div>
 
-   <div class="pb-3">
+   <div class="p-4">
     <h5 style="color:#116A3A;" class="fw-bold">2. Value</h5>
 <p>Welcome to GRACEHILL MISSION CHURCH, where God writes beautiful stories.  
       We are a Jesus-loving family that is passionate about his word and his kingdom.  
@@ -103,7 +103,7 @@
       We believe that corporately and individually.</p>
   </div>
 
-   <div class="pb-3">
+   <div class="p-4">
    <h5 style="color:#116A3A;" class="fw-bold">3. Value</h5>
 <p>Welcome to GRACEHILL MISSION CHURCH, where God writes beautiful stories.  
       We are a Jesus-loving family that is passionate about his word and his kingdom.  
@@ -111,7 +111,7 @@
       We believe that corporately and individually.</p>
   </div>
 
-   <div class="pb-3">
+   <div class="p-4">
    <h5 style="color:#116A3A;" class="fw-bold">4. Value</h5>
   <p>Welcome to GRACEHILL MISSION CHURCH, where God writes beautiful stories.  
       We are a Jesus-loving family that is passionate about his word and his kingdom.  
